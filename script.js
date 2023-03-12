@@ -41,7 +41,7 @@ console.log("Password Length + passwordLength");
 
 // added if and else if statements to give prompts for criteria
 if(!passwordLength) {
-  alert("Required Value");
+  alert("Please enter Required Value");
 
 } else if (passwordLength < 8 || passwordLength > 128) { 
   passwordLength = prompt("Number must be between 8 and 128");
